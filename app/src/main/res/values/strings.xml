@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Cari Buku Perpus</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+
+
+    <!-- Dialog/Fragment names -->
+    <string name="dialog_new_note">New Note Dialog</string>
+    <string name="dialog_view_note">View Note Dialog</string>
+
+    <!-- Strings -->
+    <string name="note_title">Title</string>
+    <string name="note_content">Content</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="text_book">Text Book</string>
+    <string name="research_book">Buku Riset</string>
+    <string name="magazine">Majalah</string>
+
+    <string name="dummy_deskripsi">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+</resources>

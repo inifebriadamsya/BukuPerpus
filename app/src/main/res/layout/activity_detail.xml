@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        tools:context=".DetailBukuActivity"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                android:padding="80dp"
+                app:srcCompat="@drawable/applogo"
+                android:background="@color/lightGrey"/>
+
+            <TextView
+                android:id="@+id/nama_buku_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:paddingTop="16dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/colorPrimary"
+                android:paddingTop="20dp" />
+
+            <TextView
+                android:id="@+id/id_buku_kategori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:id="@+id/id_buku_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:id="@+id/pengarang_buku_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="16dp"
+                android:paddingTop="15dp" />
+
+            <TextView
+                android:id="@+id/edisi_buku_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="16dp"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:id="@+id/isbn_buku_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="16dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="15dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/colorPrimary"
+                android:paddingTop="15dp"
+                />
+
+            <TextView
+                android:id="@+id/desc_buku_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:paddingTop="5dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
